@@ -15,3 +15,12 @@ main = do
   putStrLn "Hello, Haskell!"
   Lists.exercises
   Funcs.exercises
+
+{-
+PENDING
+* guards
+* recursion
+* lambdas
+* type classes
+* fib sequence
+-}
