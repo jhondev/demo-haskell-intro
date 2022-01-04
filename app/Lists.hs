@@ -18,8 +18,14 @@ exercises = do
   print "first 3 elements"
   print (take 3 list)
 
+  print "drop first 3 elements"
+  print (drop 3 list)
+
   print "sum"
   print (sum list)
 
   print "pow3List"
   print ([3 ^ n | n <- list])
+
+  print "append 2 list"
+  print (list ++ [8, 9])
