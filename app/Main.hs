@@ -18,9 +18,9 @@ main = do
 
 {-
 PENDING
-* guards
 * recursion
 * lambdas
 * type classes
 * fib sequence
+* pattern matching in funcs
 -}
