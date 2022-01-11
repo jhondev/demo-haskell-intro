@@ -15,4 +15,6 @@ FP 8-9 - Recursive functions
 FP 10 exercises
 
 FP 11 How to think recursively
+
+FP 12 recursive exercises
 --}
