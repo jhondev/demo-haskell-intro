@@ -1,6 +1,7 @@
 module Main where
 
 import Funcs
+import Impure
 import Lists
 
 -- comment
@@ -15,6 +16,11 @@ main = do
   putStrLn "Hello, Haskell!"
   Lists.exercises
   Funcs.exercises
+  putStrLn "\n**********IMPURE AND INTERACTIVE FUNCTIONS*********\n"
+  -- (x, y) <- Impure.act
+  -- putStrLn ("You entered X: " ++ x ++ " and Y: " ++ y ++ " \n")
+  -- Impure.strlen
+  Impure.hangman
 
 {-
 PENDING
